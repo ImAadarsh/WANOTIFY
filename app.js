@@ -5,7 +5,7 @@ import routes from './routes.js'
 import { init, cleanup } from './whatsapp.js'
 import cors from 'cors'
 
-const app = express()
+const app = express();
 
 const host = process.env.WA_SERVER_HOST || undefined
 const port = parseInt(process.env.WA_SERVER_PORT ?? 8000)
